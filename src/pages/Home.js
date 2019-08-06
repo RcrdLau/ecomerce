@@ -1,16 +1,16 @@
 import React from 'react'
-import Lista from '../components/Lista'
+// import Lista from '../components/Lista-menu'
+import Menu from '../components/Menu'
 // import logo from './logo.svg';
 //<img src={logo} className="App-logo" alt="logo" />
 
-const c = () => {
+const homepage = () => {
   return (
     <>
-      <h1>Olá</h1>
-      <h1>Olá</h1>
-      <Lista></Lista>
+      <Menu></Menu>
+      {/* <Lista></Lista> */}
     </>
   )
 }
 
-export default c
+export default homepage

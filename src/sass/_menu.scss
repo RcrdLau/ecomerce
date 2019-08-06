@@ -1,0 +1,32 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #b4b4b4;
+
+    h1 {
+        float: left;
+        margin: 20px;
+    }
+
+    ul li{
+        display: inline;
+        margin: 10px;
+    }
+
+    .lista {
+        float: left;
+        margin: 20px 20px 20px 0;
+    }
+
+    .pesquisa-cadastro {
+        margin: 20px 0 0 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .pesquisa-cadastro {
+        float: right;
+    }
+}
