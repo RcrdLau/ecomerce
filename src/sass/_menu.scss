@@ -20,13 +20,23 @@
 
     .pesquisa-cadastro {
         margin: 20px 0 0 0;
+        float: right;
     }
 
     a {
         text-decoration: none;
     }
 
-    .pesquisa-cadastro {
-        float: right;
+    form input {
+        padding: 5px 0 0 0;
+    }
+
+    form img {
+        max-width:20px;
+        max-height:50px;
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        background-color: black;
     }
 }

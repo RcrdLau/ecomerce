@@ -1,4 +1,6 @@
 import React from 'react'
+import lupa from '../img/lupa.png'
+// import cart from '../img/cart.png'
 
 
 
@@ -22,7 +24,7 @@ const menu = () => {
                 <div className="pesquisa-cadastro">
                     <form>
                         <input type="search" id="busca"/>
-                        <img src="#" className="btn" alt="lupa" /> {/* não consegui colocar o link da img */}
+                        <img src={lupa} className="btn" alt="lupa" /> 
                     </form>
                     <ul className="lista cadastro">
                         <li><a className="btn" href="www.google.com">Login</a></li>
