@@ -1,18 +1,18 @@
 import React from 'react'
-// import Lista from '../components/Lista-menu'
 import Menu from '../components/Menu'
 import Slider from '../components/Slider'
 import Tipos from '../components/Tipos-pagamento'
-// import logo from './logo.svg';
-//<img src={logo} className="App-logo" alt="logo" />
+import Produtos from '../components/Produtos'
+import Rodape from '../components/Rodape'
 
 const homepage = () => {
   return (
     <>
       <Menu></Menu>
-      {/* <Lista></Lista> */}
       <Slider></Slider>
       <Tipos></Tipos>
+      <Produtos></Produtos>
+      <Rodape></Rodape>
     </>
   )
 }
