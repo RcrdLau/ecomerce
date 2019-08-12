@@ -1,5 +1,5 @@
 import React from 'react'
-import lupa from '../img/lupa.png'
+// import lupa from '../img/lupa.png'
 // import cart from '../img/cart.png'
 
 
@@ -7,37 +7,51 @@ import lupa from '../img/lupa.png'
 const menu = () => {
   return (
     <>
-        <div class="container">
+        <section class="container">
             <nav> 
                 <h1>
                     <a href="www.google.com"> {/* colocar o link da pagina inicial do site, seria index.html ??? */}
                         <img src="#" alt="Logo do Site"/>
                     </a>
                 </h1>
-                <ul className="lista menu">
-                    <li>Categorias</li>
-                    <li>Historico</li>
-                    <li>Produtos com desconto</li>
-                    <li>Vender</li>
-                    <li>Contato</li>
+                <form>
+                    <input type="search" placeholder="Procure jogos..." />
+                </form>
+                <ul className="lista-menu">
+                    <li>Acesso</li>
+                    <li>Loja
+                        <ul>
+                            <li className="sub-lista">Jogos</li>
+                            <li className="sub-lista">Ofertas</li>
+                        </ul>
+                    </li>
                 </ul>
-                <div className="pesquisa-cadastro">
-                    <form>
-                        <input type="search" id="busca"/>
-                        <img src={lupa} className="btn" alt="lupa" /> 
-                    </form>
-                    <ul className="lista cadastro">
-                        <li><a className="btn" href="www.google.com">Login</a></li>
-                        <li><a className="btn" href="www.google.com">Cadastre-se</a></li>
+                <hr/>
+                <ul className="lista-auxiliar">
+                    <li>Sobre</li>
+                    <li>Baixar</li>
+                    <li>Ajuda</li>
+                </ul>
+
+                <section className="acesso">                  
+                    <ul className="lista-cadastro">
                         <li>
-                            <a className="btn" href="www.google.com">Carrinho</a>
-                            <img src="" className="btn" alt="carrinho" />
+                            <button className="btn btn-entrar">
+                                <a  href="www.google.com">Entrar</a>
+                            </button>
                         </li>
+                        <li>
+                            <button className="btn btn-inscrever">
+                                <a  href="www.google.com">Inscreva-se</a>
+                            </button>
+                        </li>
+                        <hr/>
+                        <a className="escolha-idioma" href="www.google.com">Escolha seu idioma</a>
                     </ul>
-                </div>
+                </section>
             </nav>
-            <div className="clear"></div>
-        </div>
+            {/* <div className="clear"></div> */}
+        </section>
     </>
   )
 }
