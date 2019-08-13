@@ -1,0 +1,63 @@
+.container-banner {
+    padding-left: 280px;
+    width: 1640px;
+    height: 530px;
+
+    .img-banner {
+        position: relative;
+        // right: 0;
+    }
+
+    .img-grande {
+        width: 1640px;
+        height: 530px;
+    }
+
+    .informacoes {
+        background-color: black;
+        width: 1640px;
+        height: 175px;
+        position: absolute;
+        opacity: .75;
+        bottom: 226px;
+    }
+
+    .relativa {
+        position: relative; 
+    }
+
+    .img-pequena {
+        width: 70px;
+        height: 100px;
+        left: 50px;
+        bottom: 204px;
+        border: 1px solid orange;     
+    }
+
+    h2 {
+        color: white;
+        bottom: 250px;
+        left: 150px;
+        font-size: 40px;
+    }
+
+    p {
+        color: white;
+        bottom: 215px;
+        left: 150px;
+    }
+
+    .btn-adquira {
+        margin: 0 17.5px;
+        width: 244px;
+        height: 46px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;   
+        background-color: rgb(255, 115, 0);
+        cursor: pointer;   
+        color: white;
+        bottom: 250px;
+        right: -1225px;    
+    }
+}

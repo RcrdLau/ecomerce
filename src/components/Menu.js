@@ -5,10 +5,10 @@ import React from 'react'
 const menu = () => {
   return (
     <>
-        <section class="container">
+        <section class="container-menu">
             <nav> 
                 <h1>
-                    <a href="/"> {/* colocar o link da pagina inicial do site, seria index.html ??? */}
+                    <a href="/">
                         <img src="#" alt="Logo do Site"/>
                     </a>
                 </h1>
@@ -16,34 +16,25 @@ const menu = () => {
                     <input type="search" placeholder="Procure jogos..." />
                 </form>
                 <ul className="lista-menu">
-                    <li>Acesso</li>
-                    <li><a href="/jogo">Jogo</a></li>
-                </ul>
-                <hr/>
-                <ul className="lista-auxiliar">
-                    <li>Sobre</li>
-                    <li>Baixar</li>
-                    <li>Ajuda</li>
-                </ul>
-
+                    <li>Lista de Jogos</li>
+                    <li><a href="/jogo">Anthem</a></li>
+                    <li><a href="/jogo">ApexLegends</a></li>
+                    <li><a href="/jogo">Battlefield</a></li>
+                    <li><a href="/jogo">Fifa</a></li>
+                    <li><a href="/jogo">TheSims</a></li>
+                </ul> 
                 <section className="acesso">                  
                     <ul className="lista-cadastro">
+                        <hr/>
                         <li>
                             <button className="btn btn-entrar">
-                                <a  href="www.google.com">Entrar</a>
+                                <a  href="www.google.com">Carrinho </a>
                             </button>
                         </li>
-                        <li>
-                            <button className="btn btn-inscrever">
-                                <a  href="www.google.com">Inscreva-se</a>
-                            </button>
-                        </li>
-                        <hr/>
-                        <a className="escolha-idioma" href="www.google.com">Escolha seu idioma</a>
                     </ul>
                 </section>
             </nav>
-            {/* <div className="clear"></div> */}
+            <div className="clear"></div>
         </section>
     </>
   )

@@ -1,4 +1,4 @@
-.container {
+.container-menu {
     width: 280px;
     position: fixed;
     left: 0;
@@ -9,6 +9,14 @@
 
     h1 {
         margin: 30px 100px 15px 100px;
+    }
+
+    a {
+        color: #9e9e9e;
+    }
+
+    li {
+        color: #9e9e9e;
     }
 
     input {
@@ -63,6 +71,8 @@
     .lista-menu li {
         margin: 0 0 0 20px;
         list-style-type: none;
+        font-size: 20px;
+        padding: 10px 0 10px 20px;
     }
     
     .sub-lista {
@@ -75,17 +85,9 @@
         margin: 10px 0;
     }
 
-    .lista-auxiliar {
-        list-style-type: circle; //não está funcionando (?)
-    }
-
-    .lista-auxiliar li {
-        display: inline;
-        margin: 0 5px;
-    }
-
-    .lista-auxiliar li:first-child {
-        margin-left: 20px; 
+    .lista-cadastro {
+        position: absolute;
+        bottom: 20px;
     }
 
     .btn {
@@ -94,26 +96,12 @@
         height: 46px;
         border: none;
         border-radius: 5px;
-        color: white;
-            
+        font-size: 18px;   
+        background-color: rgb(255, 115, 0);
+        cursor: pointer;      
     }
 
     .btn a {
         color: white;
-    }
-    
-    .btn-entrar {
-        background-color: rgb(255, 115, 0);
-        color: white;
-    }
-
-    .btn-inscrever {
-        margin: 10px 17.5px;
-        border: 1px solid white;
-        background-color: #1E262C;
-    }
-
-    .escolha-idioma {
-        margin: 0 0 0 20px;
     }
 }
