@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from '../components/Menu'
+import Lightbox from '../components/Lightbox'
 // import Slider from '../components/Slider'
 // import Tipos from '../components/Tipos-pagamento'
 // import Produtos from '../components/Produtos'
@@ -12,7 +13,10 @@ const homepage = () => {
       {/* <Slider></Slider>
       <Tipos></Tipos>
       <Produtos></Produtos>
-      <Rodape></Rodape> */}
+    <Rodape></Rodape> */}
+
+      {/* SEMPRE COMO ULTIMO */}
+      <Lightbox></Lightbox>
     </>
   )
 }
