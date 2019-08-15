@@ -1,50 +1,51 @@
 .container-banner {
     padding-left: 280px;
-    width: 1640px;
+    width: 1623px;
     height: 530px;
 
     .img-banner {
+        width: 1623px;
+        height: 530px;
         position: relative;
-        // right: 0;
     }
 
     .img-grande {
-        width: 1640px;
+        width: 1623px;
         height: 530px;
     }
 
-    .informacoes {
+    .box-preta {
         background-color: black;
-        width: 1640px;
+        width: 1623px;
         height: 175px;
         position: absolute;
         opacity: .75;
-        bottom: 226px;
+        bottom: 0;
     }
 
-    .relativa {
-        position: relative; 
+    .absoluto {
+        position: absolute; 
     }
 
     .img-pequena {
         width: 70px;
         height: 100px;
-        left: 50px;
-        bottom: 204px;
+        left: 45px;
+        bottom: 90px;
         border: 1px solid orange;     
     }
 
     h2 {
         color: white;
-        bottom: 250px;
-        left: 150px;
+        bottom: 118px;
+        left: 140px;
         font-size: 40px;
     }
 
     p {
         color: white;
-        bottom: 215px;
-        left: 150px;
+        bottom: 90px;
+        left: 140px;
     }
 
     .btn-adquira {
@@ -57,7 +58,7 @@
         background-color: rgb(255, 115, 0);
         cursor: pointer;   
         color: white;
-        bottom: 250px;
-        right: -1225px;    
+        bottom: 60px;
+        right: 40px;    
     }
 }

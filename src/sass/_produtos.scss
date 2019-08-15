@@ -1,7 +1,74 @@
-p + p + p {
-    margin: 0 0 20px 0;
+.container-med {
+	padding-left: 280px;
+	margin: 0 auto;
+    display: flex;
+    background-color: rgb(221, 246, 253);
+    
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+    
+    .item {
+        position: relative;
+        margin: 50px 0 0 40px;
+        background: tomato; //apenas para verificar o tamanho correto
+        text-align: center;
+        font-size: 1.5em;
+        width: 750px;
+        height: 360px;
+        border-radius: 1px;
+        box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);    
+    }
+    
+    .item + .item {
+        margin-right: 40px;
+    }
+    
+    .shrink-1-basis {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 150px;
+    }
+
+    .img-media {
+        width: 752px;
+        height: 360px;
+    }
+    
+    .img-mini {
+        position: absolute;
+        width: 70px;
+        height: 100px;
+        bottom: 40px;
+        left: 20px;
+    
+    }
+    
+    .caixa-preta {
+        background-color: black;
+        width: 752px;
+        height: 125px;
+        position: absolute;
+        opacity: .75;
+        bottom: 0;
+    }
+    
+    h2 {
+        position: absolute;
+        color: white;
+        bottom: 60px;
+        left: 120px;
+        font-size: 40px;
+    }
+    
+    p {
+        color: white;
+        bottom: 30px;
+        left: 120px;
+        position: absolute;
+    }
 }
 
-.item img {
-    margin: 10px 0;
+.container-med + .container-med {
+    padding-bottom: 50px;
 }

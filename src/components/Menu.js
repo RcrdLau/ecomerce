@@ -9,7 +9,7 @@ const menu = () => {
             <nav> 
                 <h1>
                     <a href="/">
-                        <img src="#" alt="Logo do Site"/>
+                        <img src="#" alt="Is not Origin"/>
                     </a>
                 </h1>
                 <form>
