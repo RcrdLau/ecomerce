@@ -1,0 +1,65 @@
+.f-jogo {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    margin: 10px 20px;
+    height: 300px;
+
+    + .f-jogo {
+        margin: 10px 20px 0 0;
+    }
+
+    &.flex-2 {
+        flex: 2;
+    }
+
+    .f-img-fundo {
+        position: absolute;
+        height: 100%;
+        left: 50%;
+        margin-left: -450px;
+    }
+
+    .f-img-fundo-h {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        margin-top: -150px;
+    }
+
+    .f-fundo-texto {
+        position: absolute;
+        background: #000;
+        opacity: .8;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 80px;
+    }
+
+    .f-img {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        height: 80px;
+    }
+}
+
+.produtos-alinhados {
+    margin-left: 280px;
+	display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.f-carousel {
+    margin-left: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .f-jogo {
+        width: 200px;
+        flex: none;
+        display: inline-block;
+    }
+}
