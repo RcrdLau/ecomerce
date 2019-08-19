@@ -1,0 +1,31 @@
+.slider-maior {
+    padding: 20px 0 0 280px;
+    background-color: #DDF6FD;
+
+    .container {
+        padding: 20px 40px 20px 30px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .item {
+        margin: 10px;
+        background: grey;
+        text-align: left;
+        font-size: 1.5em;
+        width: 315px;
+        height: 177px;
+    }
+
+    .img-quadro {
+        width: 315px;
+        height: 177px;
+    }
+
+    h3 {
+        margin: 0 0 0 40px;
+        color: orange;
+    }
+}

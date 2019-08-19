@@ -1,0 +1,28 @@
+.container-detalhes {
+    padding-left: 280px;
+    width: 1623px;
+    height: 800px;
+    position: relative;
+
+    .img-detalhes {
+        width: 1623px;
+        height: 800px;
+        // position: relative;
+    }
+
+    h3 {
+        position: absolute;
+        color: white;
+        top: 330px;
+        left: 490px;
+        font-size: 42px;
+    }
+
+    p {
+        position: absolute;
+        color: white;
+        bottom: 300px;
+        left: 485px;
+        text-align: center;
+    }
+}

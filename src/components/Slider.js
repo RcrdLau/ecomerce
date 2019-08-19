@@ -18,7 +18,7 @@ const slider = () => {
         <div class="item">Teste 5</div>
         <div class="item">Teste 6</div>
         <div class="item">Teste 7</div>
-</section>
+      </section>
     </ul>
     </>
   )
