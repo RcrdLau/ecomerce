@@ -12,11 +12,11 @@ const homepage = () => {
   return (
     <>
       <Menu></Menu>
-      <ProdutosAlinhados></ProdutosAlinhados>
-      {/* <Banner></Banner>
+      <Banner></Banner>
       <Produtos></Produtos>
       <Slider></Slider>
-      <Rodape></Rodape> */}
+      {/* <ProdutosAlinhados></ProdutosAlinhados> */}
+      <Rodape></Rodape>
       {/* SEMPRE COMO ULTIMO */}
       {/* <Lightbox></Lightbox> */}
     </>

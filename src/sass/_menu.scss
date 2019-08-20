@@ -83,10 +83,10 @@
         color: #9e9e9e;
         opacity: 0.5;
         margin: 10px 0;
-    }
+    }   
 
     .lista-cadastro {
-        position: absolute;
+        margin-top: 440px;
         bottom: 20px;
     }
 
@@ -98,7 +98,8 @@
         border-radius: 5px;
         font-size: 18px;   
         background-color: rgb(255, 115, 0);
-        cursor: pointer;      
+        cursor: pointer;    
+        bottom: 0;  
     }
 
     .btn a {

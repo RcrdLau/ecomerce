@@ -1,35 +1,64 @@
-.slider {
-
-
-    .container {
-        padding: 20px 40px 20px 310px;
-        background-color: #DDF6FD;
-    }
-
-    .flex {
-        display: flex;
-    }
-
+.container-slider {
+    margin-left: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: purple;
+    
+    
     .item {
-        margin: 10px;
+        
         background: grey;
         text-align: left;
         font-size: 1.5em;
-        width: 150px;
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        flex: none;
+        display: inline-block;
+        margin: 20px 0 20px 20px;
         height: 360px;
     }
-
+    
+    .item:last-child{
+        margin-right: 20px;
+    }
+    
+    .f-carousel {
+        margin-left: 280px;
+        overflow: hidden;
+        white-space: nowrap;
+        
+        .f-jogo {
+            width: 200px;
+            flex: none;
+            display: inline-block;
+        }
+    }
     .img-quadro {
-        width: 150px;
+        width: 200px;
         height: 212px;
     }
-
+    
     p{
         margin: 0 0 80px 10px;
+    }
+    
+    h2 {
+        margin: 20px;
+        color: orange;
     }
 
     h3 {
         margin-left: 10px;
         color: orange;
+    }
+
+    button {
+        float: right;
+        margin-left: 20px;
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        border: none;
     }
 }
