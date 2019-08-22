@@ -12,66 +12,68 @@ const slider = () => {
             <button>left</button>
           </h2>
         </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>
-        <div class="item">
-          <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
-          <p>Apex Legends</p>
-          <h3>R$50,00</h3>
-        </div>  
+        <div className="conteudo-todo">
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div>
+          <div class="item">
+            <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
+            <p>Apex Legends</p>
+            <h3>R$50,00</h3>
+          </div> 
+        </div> 
       </section>
     </>
   )
