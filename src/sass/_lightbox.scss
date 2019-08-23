@@ -17,78 +17,85 @@
         width: 1000px;
         height: 650px;
         border-radius: 10px;
-        // padding: 16px;
         left: 50%;
         margin-left: -380px;
         top: 50px;
         
-        .sombra-topo {
-            background-color: rgb(165, 165, 165);
+        .topo {
             width: 100%;
             height: 100px;
+            background-color: rgb(144, 144, 144);
             border-radius: 10px 10px 0 0;
-            
+
+            h3 {
+                padding: 33px 0 0 30px;
+                font-size: 30px;
+            }
         }
 
-        h1 {
-            padding: 30px;
-            margin: 0;
-            color: #000;
-        }
-
-        .container-compra {
-            width: 100%;
-            height: 50%;
-        }
-        .dados-compra {
-            margin: 30px;
-            width: 60%;
+        .conteudo-esquerda {
+            width: 70%;
+            height: 330px;
+            background-color: rgb(175, 175, 253);
             float: left;
 
-            .img-pequena {
-                height: 80px;
-                border: 1px solid orange;   
-                float: left;  
-
-            }
-
-            li {
-                float: left;
-                margin: 20px 20px 20px 0;
-                
-                h3 {
-                    float: left;
-                    margin: 0 325px 0 20px;
-                }
-                p {
-                    float: left;
-                }
-    
-            }
-            .dados-total {
-                height: 60px;
-                margin: 20px;
-                p {
-                    float: right;
-                    margin-left: 40px;
-                }
-
+            hr {
+                margin: 40px 20px 20px 20px;
             }
         }
-        .forma-pagamento {
-            margin: 30px;
+
+        .conteudo-direita {
+            width: 30%;
+            height: 330px;
+            background-color: rgb(165, 253, 165);
             float: right;
-            width: 28%;
-            height: 30%;
+
+            p{
+                margin: 20px;
+            }
+
+            img {
+                height: 200px;
+                margin: 20px 0px 0px 20px;
+                border-radius: 10px;
+                border: 1px solid rgb(200, 198, 198);
+            }
+        }
+
+        .conteudo-meio {
+            width: 100%;
+            height: 160px;
+            background-color: rgb(255, 215, 140);
+            overflow-x: hidden;
+            overflow-y: scroll;
+            white-space: nowrap;
 
             p {
-                margin-left: 20px;
+                font-size: 15px;
+                margin: 20px 0 20px 30px;
             }
         }
 
-        .detalhes-compra-mini {
-            font-size: 15px;
-            margin: 0 20px;
+        .conteudo-baixo {
+            width: 100%;
+            height: 80px;
+            background-color: pink;
+            border-radius: 0 0 10px 10px;
+
+            .btn-adquira {
+                position: absolute; 
+                margin: 0 17.5px;
+                width: 244px;
+                height: 46px;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;   
+                background-color: rgb(255, 115, 0);
+                cursor: pointer;   
+                color: white;
+                bottom: 0;
+                right: 0;    
+            }
         }
     }
 }
