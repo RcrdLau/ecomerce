@@ -7,8 +7,7 @@ import Rodape from '../components/Rodape'
 // import ProdutosAlinhados from '../components/ProdutosAlinhados'
 import Lightbox from '../components/Lightbox'
 
-
-const homepage = () => {
+export default () => {
   return (
     <>
       <Menu></Menu>
@@ -22,5 +21,3 @@ const homepage = () => {
     </>
   )
 }
-
-export default homepage
