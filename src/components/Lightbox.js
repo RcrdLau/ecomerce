@@ -12,6 +12,33 @@ const Lightbox = () => {
         </div>  
         <div className="conteudo-esquerda">
           <hr/>
+          <div className="lista-pedidos">
+            <ul>
+              <li>
+                <img src={imagemPequena} alt="Imagem miniatura do jogo"></img>
+                <h3>Anthem</h3>
+                <p>R$ XX,XX</p>
+                <div className="clear"></div>
+                <hr/>
+              </li>
+              <li>
+                <img src={imagemPequena} alt="Imagem miniatura do jogo"></img>
+                <h3>Anthem</h3>
+                <p>R$ XX,XX</p>
+                <div className="clear"></div>
+                <hr/>
+              </li>
+              <li>
+                <img src={imagemPequena} alt="Imagem miniatura do jogo"></img>
+                <h3>Anthem</h3>
+                <p>R$ XX,XX</p>
+                <div className="clear"></div>
+                <hr/>
+              </li>
+            </ul>
+            <h3>Total: </h3>
+            <p>XX,XX</p>
+          </div>
         </div>  
         <div className="conteudo-direita">
           <p>Pagamento em dinheiro</p>
@@ -32,6 +59,9 @@ const Lightbox = () => {
           </p>
         </div>  
         <div className="conteudo-baixo">
+          <h3>Total: </h3>
+          <p>XX,XX</p>
+          <div className="clear"></div>
           <button className="btn-adquira">Finalizar compra</button>
         </div>
       </div>
