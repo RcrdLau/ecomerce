@@ -9,6 +9,10 @@
         flex-wrap: wrap;
     }
     
+    .flex {
+        display: flex;
+    }
+    
     .item {
         position: relative;
         background: tomato; //apenas para verificar o tamanho correto

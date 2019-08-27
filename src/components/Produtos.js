@@ -10,24 +10,35 @@ import jogo04 from '../img/img-jogo/thesims/thesims.jpg'
 import jogo04mini from '../img/img-jogo/thesims/thesims-mini.jpg'
 
 export default () => {
-    const jogos = useSelector(state => state.jogos)
+  const jogos = useSelector(state => state.jogos)
 
-    return (
-      <>
-        <section class="container-med flex-wrap">
-        {jogos.map(item => (
-            <div class="item shrink-1-basis">
-                <img src={jogo01} className="img-media" alt="Imagem do jogo Fifa"></img>
+  return (
+    <>  
+      {jogos.map((item, i) => {
+        if (i%2 == 0) {
+          return (
+            <section class="container-med flex flex-wrap">
+              <div class="item shrink-1-basis">
+                <img src={item.img01} className="img-media" alt={item.alt}></img>
                 <div className="caixa-preta"></div>
-                <img src={jogo01mini} className="img-mini"  alt="Imagem do jogo Fifa miniatura"></img>
+                <img src={item.mini} className="img-mini"  alt={item.alt}></img>
                 <h2>{item.nome}</h2>
                 <p>{item.texto}</p>
-            </div>
-        ))}
-        </section>
-      </>
-    )
-  }
-//   Será que você conquistará a coroa?
-//   Descubra um novo modo de jogo e muito mais no Evento de Coleção Coroa de Ferro
-//   export default produtos
+              </div>
+          )
+          } else {
+              return (
+                  <div class="item shrink-1-basis">
+                    <img src={item.img01} className="img-media" alt={item.alt}></img>
+                    <div className="caixa-preta"></div>
+                    <img src={item.mini} className="img-mini"  alt={item.alt}></img>
+                    <h2>{item.nome}</h2>
+                    <p>{item.texto}</p>
+                  </div>
+                </section>
+              )
+            }
+      }
+    </>
+  )
+}
