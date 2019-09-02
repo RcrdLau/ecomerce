@@ -1,6 +1,15 @@
 export const reducer =  () => {
     return [
         {
+            nome: "Anthem",
+            texto: "Forme uma equipe neste RPG de ação cooperativa!",
+            banner: false,
+            destaque: true,
+            img01: 'https://firebasestorage.googleapis.com/v0/b/ecomerce-8f1d9.appspot.com/o/img%2Fanthem%2Fanthem-banner.jpg?alt=media&token=68d5c53e-4c20-4c54-891b-d7c847ddc404',
+            mini: 'https://firebasestorage.googleapis.com/v0/b/ecomerce-8f1d9.appspot.com/o/img%2Fanthem%2Fanthem-banner-pequeno.jpg?alt=media&token=ad3dafd7-c846-42cc-b3d2-b1ca46432050',
+            alt: 'Imagem do jogo Anthem',
+            valor: '200,00'
+        },{
             nome: "Fifa",
             texto: "Uma nova experiência realista de futebol!",
             banner: false,

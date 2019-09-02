@@ -1,8 +1,11 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import jogo01 from '../img/img-jogo/apex/apex-mini.jpg'
 
 
-const slider = () => {
+export default () => {
+  const jogos = useSelector(state => state.jogos)
+
   return (
     <>
       <section class="container-slider">
@@ -13,7 +16,35 @@ const slider = () => {
           </h2>
         </div>
         <div className="conteudo-todo">
-          <div class="item">
+        {jogos.map((item) => {
+            return (
+                <div class="item">
+                  <img src={item.mini} className="img-quadro" alt="imagem do jogo"></img>
+                  <p>{item.nome}</p>
+                  <h3>R${item.valor}</h3>
+                </div>
+            ) //return1
+        })} 
+        {jogos.map((item) => {
+            return (
+                <div class="item">
+                  <img src={item.mini} className="img-quadro" alt="imagem do jogo"></img>
+                  <p>{item.nome}</p>
+                  <h3>R${item.valor}</h3>
+                </div>
+            ) //return1
+        })}
+        {jogos.map((item) => {
+            return (
+                <div class="item">
+                  <img src={item.mini} className="img-quadro" alt="imagem do jogo"></img>
+                  <p>{item.nome}</p>
+                  <h3>R${item.valor}</h3>
+                </div>
+            ) //return1
+        })}
+          
+          {/* <div class="item">
             <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
             <p>Apex Legends</p>
             <h3>R$50,00</h3>
@@ -72,11 +103,10 @@ const slider = () => {
             <img src={jogo01} className="img-quadro" alt="imagem do jogo"></img>
             <p>Apex Legends</p>
             <h3>R$50,00</h3>
-          </div> 
+          </div>  */}
         </div> 
       </section>
     </>
   )
 }
 
-export default slider
