@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from '../components/Menu'
-import Banner from '../components/Banner'
+import HeaderGame from '../components/HeaderGame'
 import MenuPequeno from '../components/Menu-pequeno'
 import SliderMaior from '../components/Slider-maior'
 import Detalhes01 from '../components/Detalhes01'
@@ -13,7 +13,7 @@ const Jogo = () => {
   return (
     <>
       <Menu></Menu>
-      <Banner></Banner>
+      <HeaderGame></HeaderGame>
       <MenuPequeno></MenuPequeno>
       <SliderMaior></SliderMaior>
       <Detalhes01></Detalhes01>
