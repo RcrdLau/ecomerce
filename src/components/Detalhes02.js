@@ -1,7 +1,13 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import img01 from '../img/img-jogo/anthem/anthem-detalhes.jpg'
 
 const Detalhes02 = () => {
+
+  const jogos = useSelector(state => state.jogos)
+  const pagina = useSelector(state => state.pagina)
+  const jogoSelecionado = jogos.filter(item => item.id == pagina.jogoAtual)[0]
+  
   return (
     <section className="container-detalhes2">
         <img src={img01} className="img-detalhes" alt="Imagem de Anthem"></img>

@@ -10,8 +10,9 @@ export const actions = {
 }
 
 const INITIAL_STATE = {
-    jogoAtual: null
+    jogoAtual: 'FC92B'
 }
+
 export const reducer = (state = INITIAL_STATE, action) => {
     let newState = JSON.parse(JSON.stringify(state))
 
