@@ -10,7 +10,7 @@ const Detalhes01 = () => {
   
   return (
     <section className="container-detalhes">
-        <img src={img01} className="img-detalhes" alt="Imagem de Anthem"></img>
+        <img src={jogoSelecionado.imagem_destaque01} className="img-detalhes" alt="Imagem de Anthem"></img>
         <h3>{jogoSelecionado.titulo_destaque01}</h3>
         <p>{jogoSelecionado.texto_destaque01}</p>
     </section>
